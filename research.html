@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="background"></div>
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h2>Menu</h2>
+        <a href="homepage.html"><img src="user.png" alt="About_me Icon" width="16" height="16" class="white-icon">About Me</a>
+        <a href="teaching.html"><img src="teachings.png" alt="Teaching Icon" width="16" height="16" class="white-icon">Teaching</a>
+        <a href="research.html"><img src="research.png" alt="Research Icon" width="16" height="16" class="white-icon">Research</a>
+        <a href="Hangao_LIANG_Resume.pdf" download="CV"><img src="resume.png" alt="CV Icon" width="16" height="16" class="white-icon">CV</a>
+    </div>
+
+
+    <!-- Main Content -->
+    <div class="content">
+        <div class="header-bar">Research</div>
+        <p class="section-text">
+            The sampling from high-dimensional probability distributions is crucial for 
+            understanding complex systems, estimating parameters, or making predictions 
+            in many fields ranging from statistics and machine learning to physics and 
+            finance. In these scenarios, traditional analytical solutions become 
+            impractical due to the complexity of the probability space, and sampling 
+            provides a powerful alternative to gain insights. However, generating 
+            representative samples from these high-dimensional distributions is 
+            challenging, as the probability mass tends to concentrate in unexpected
+             regions, making it hard to sample accurately.
+        </p>
+
+        <p class="section-text">
+            In lower dimensions, simple sampling strategies like importance sampling 
+            may work well by drawing samples from an easier, known distribution and 
+            reweighting them to approximate the target distribution. 
+            However, in high dimensions, these approaches often fail due to the 
+            "curse of dimensionality", by which basic sampling techniques 
+            struggle to find representative samples in high-dimensional spaces.
+        </p>
+
+        <div class="content-container style=--text-flex: 4; --image-flex: 1;">
+            <div class="text">
+                <p class="section-text">
+                    The Monte Carlo (MC) method offers a robust solution to these 
+                    high-dimensional sampling challenges. By building a chain of 
+                    dependent samples that collectively approximate the target distribution,
+                     MC methods can efficiently navigate high-dimensional spaces, 
+                     even where standard sampling would fail. 
+                     The iterative nature of MC methods enables them to focus on the 
+                     regions of highest probability mass, ensuring efficient and reliable 
+                     sampling in high dimensions. 
+                </p>
+              </div>
+        
+              <div class="images">
+                <img src="rwm.png" alt="Image 1" width="300" height="300">
+              </div>
+
+        </div>
+
+
+        <p class="section-text">
+            My one-year MSc program will focus on validating and evaluating 
+            several state-of-the-art high-dimensional Monte Carlo sampling 
+            strategies, with the goal of providing insights into the efficiency 
+            of parallel Monte Carlo sampling methods in high-dimensional spaces.
+        </p>
+    </div>
+
+</body>
+</html>
+
