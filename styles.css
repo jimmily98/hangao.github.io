@@ -165,3 +165,9 @@ filter: invert(1) brightness(1000%);
     display: block;
     margin-bottom: 20px; /* Adds space between the two images */
 }
+
+.video-container {
+  display: flex;
+  gap: 50px; /* Space between videos */
+  margin-top: 30px; /* Add space between container and upper components */
+}
